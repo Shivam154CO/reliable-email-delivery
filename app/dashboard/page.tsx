@@ -1119,7 +1119,7 @@ export default function EmailDashboard() {
                 <div>
                   <h3 className="font-semibold mb-2">Circuit Breaker</h3>
                   <p className="text-sm text-muted-foreground">
-                    Protects downstream services by temporarily disabling failing providers
+                    Protects the downstream services by temporarily disabling failing providers
                   </p>
                 </div>
               </div>
@@ -1128,7 +1128,7 @@ export default function EmailDashboard() {
                 <div>
                   <h3 className="font-semibold mb-2">Rate Limiting</h3>
                   <p className="text-sm text-muted-foreground">
-                    Configurable rate limits to protect both your system and email providers
+                    Configurable the rate limits to protect both your system and email providers
                   </p>
                 </div>
               </div>
@@ -1137,7 +1137,7 @@ export default function EmailDashboard() {
                 <div>
                   <h3 className="font-semibold mb-2">Real-time Monitoring</h3>
                   <p className="text-sm text-muted-foreground">
-                    Comprehensive observability with metrics and structured logging
+                    Comprehensive observability with the metrics and structured logging
                   </p>
                 </div>
               </div>

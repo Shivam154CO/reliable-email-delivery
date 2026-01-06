@@ -442,15 +442,15 @@ export default function EmailBuilderPage() {
                     <div className="p-3 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg">
                       <div className="flex items-center justify-between mb-2">
                         <span className="text-sm font-medium text-blue-800 dark:text-blue-300">
-                          Validation Status
+                          Validation Status check
                         </span>
                         {isEmailValid ? (
                           <Badge className="bg-green-100 text-green-800 border-green-200">
-                            Valid
+                            Valids
                           </Badge>
                         ) : emailValidationTouched ? (
                           <Badge className="bg-red-100 text-red-800 border-red-200">
-                            Invalid
+                            Invalids
                           </Badge>
                         ) : (
                           <Badge variant="outline" className="text-gray-500">
